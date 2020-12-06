@@ -1,0 +1,25 @@
+{
+    "name": "c-plus",
+    "displayName": "C+",
+    "description": "Welcome to C+! A programming language very similar to C++, but easier!",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "cp",
+            "aliases": ["C+", "cp"],
+            "extensions": [".cp",".cplus"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "cp",
+            "scopeName": "index.cp",
+            "path": "./syntaxes/cp.tmLanguage.json"
+        }]
+    }
+}
